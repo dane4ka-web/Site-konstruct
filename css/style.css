@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
 html {
   box-sizing: border-box;
@@ -22,8 +22,79 @@ body {
   padding: 0 250px;
 }
 
+.hero {
+  background-image: url(../img/first-bgi.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  min-height: 768px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; */
+  text-align: center;
+}
+
+.hero__logo {
+  padding-top: 47px;
+  margin-bottom: 317px;
+}
+
+.hero__logo > img {
+  width: 102px;
+  height: 23px;
+}
+
+.hero__title {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  letter-spacing: 0.1em;
+  color: #fff;
+  margin-bottom: 11px;
+}
+
+.hero__subtitle {
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 200px;
+}
+
+.hero__scroll {
+  font-weight: 400;
+  font-size: 11px;
+  letter-spacing: 0.34em;
+  color: #fff;
+  text-decoration: none;
+}
+
+.header {
+  /* background-color: lightblue; */
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+}
+.header__list {
+  display: flex;
+  gap: 48px;
+}
+.header__list-item {
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #48555b;
+  list-style: none;
+}
+
 .story {
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
 }
 
 .story_inner {
@@ -133,4 +204,36 @@ body {
   .story_item:nth-child(3) {
     margin-bottom: 0;
   }
+}
+
+.services {
+  padding-top: 150px;
+}
+.services__top {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.services__top-right {
+  display: flex;
+}
+
+.services__title {
+}
+.services__desc {
+}
+.services__button {
+}
+.services__down {
+}
+.services__card {
+}
+.services__card-item {
+}
+.services__image {
+}
+.services__title-h3 {
+}
+.services__item-desc {
 }
